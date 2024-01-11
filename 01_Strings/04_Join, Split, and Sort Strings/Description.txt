@@ -1,0 +1,15 @@
+sep = " "
+new_string = sep.join(['This is', 'a spectacular', 'place to be'])
+print(new_string)
+
+another_string ='How many\tstrings\nwill you see?'
+print(another_string)
+print(another_string.split())
+
+names = ['Adam', 'Kate', 'Barbara', 'Donna']
+names_sorted = sorted(names)
+print(names_sorted)
+
+names = ['Adam', 'Kate', 'Barbara', 'Donna']
+names.sort()
+print(names)
