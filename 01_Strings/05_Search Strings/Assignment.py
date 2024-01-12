@@ -1,7 +1,7 @@
-text = 'iloveplayinggames'.index('gaming')
+text = 'iloveplayinggames'
 
-my_text = 'This is my sample string'
-print(my_text.find('the'))
+result = text.find("the")
+print(text.find('the'))
 if result == -1:
     print("The word is not in the string")
 else:
