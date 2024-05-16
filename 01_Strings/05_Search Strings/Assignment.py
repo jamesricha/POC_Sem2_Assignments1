@@ -8,7 +8,6 @@ if result == -1:
 else:
     print("The word is in the string")
 =======
-text = "" #use input to actually store into text.  remove the ""
 
 result = text.find("the")
 
